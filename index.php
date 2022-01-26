@@ -4,8 +4,8 @@
 ?>
 
 <section class="index-intro">
-  <h1>This Is An Introduction</h1>
-  <p>Here is an important paragraph that explains the purpose of the website and why you are here!</p>
+  <h1>Surviving March</h1>
+  <p>Brought to you by the "Pockets Aint Empty Podcast"!</p>
 </section>
 
 <section class="index-categories">
