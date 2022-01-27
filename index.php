@@ -38,7 +38,7 @@
         echo $ex;
       }
 }
-</php>
+?>
 </h3>
     </div>
     <div>
