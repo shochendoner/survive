@@ -48,6 +48,7 @@ nav .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #0078c2;
 }
 
 nav img {
