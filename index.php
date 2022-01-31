@@ -9,19 +9,10 @@
 </section>
 
 <section class="index-categories">
-  <h2>Some Basic Categories</h2>
+  <h2>Make Your Selections</h2>
   <div class="index-categories-list">
     <div>
-      <h3>Fun Stuff</h3>
-    </div>
-    <div>
-      <h3>Serious Stuff</h3>
-    </div>
-    <div>
-      <h3>Exciting Stuff</h3>
-    </div>
-    <div>
-      <h3>Boring Stuff</h3>
+      <h3>Select Two Teams</h3>
     </div>
   </div>
 </section>
