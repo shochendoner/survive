@@ -1,6 +1,8 @@
 <!--Splitting the header and footer into separate documents makes things easier!-->
 <?php
   include_once 'header.php';
+  include_once 'dbh.inc.php';
+  include_once 'functions.inc.php';
 ?>
 
 <section class="index-intro">
@@ -13,6 +15,12 @@
   <div class="index-categories-list">
     <div>
       <h3>Select Two Teams</h3>
+      <?php
+      
+      
+      
+
+    ?>
     </div>
   </div>
 </section>

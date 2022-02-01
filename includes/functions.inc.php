@@ -74,9 +74,28 @@ function uidExists($conn, $username) {
 	mysqli_stmt_close($stmt);
 }
 
+// Display Picks
+function getUserPicks ($id)
+{
+	$array = array();
+	$q = mysqli_query("SELECT * FROM 'users' WHERE 'usersID'=".$id);
+	while ($r = mysqli_fetch_assoc($q))
+	{
+			$array['usersId'] = $row['usersId'];
+
+
+
+	}
+
+	)
+
+}
+
+
+
 // Insert picks into database --STILL FIXING 
 function makePicks($pick1, $pick2) {
-	$sql = "INSERT INTO users (pickOne, pickTwo, usersUid, usersPwd) VALUES (?, ?);";
+	$sql = "INSERT INTO users (pickOne, pickTwo) VALUES (?, ?);";
 
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql)) {
