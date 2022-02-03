@@ -1,8 +1,5 @@
 <!--Splitting the header and footer into separate documents makes things easier!-->
 <?php
-
-session_start();
-
   include_once 'header.php';
   include_once 'dbh.inc.php';
   include_once 'functions.inc.php';
