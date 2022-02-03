@@ -15,13 +15,21 @@
   <div class="index-categories-list">
     <div>
       <h3>Select Two Teams</h3>
+  </div>
+    <div>
+      <form action="includes/makepics.inc.php" method="post">
       <?php
-      
-      
-      
-
-    ?>
-    </div>
+      $choices = array()
+      $query = mysqli_query("SELECT field1, field2 FROM ...");
+      if (mysql_num_rows($query))
+      {
+      while ($row = mysqli_fetch_array($query))
+        {
+          $choices[$row['field1']] = $row['field2'];
+        }
+      }
+      ?>
+  </div>
   </div>
 </section>
 
