@@ -1,5 +1,8 @@
 <!--Splitting the header and footer into separate documents makes things easier!-->
 <?php
+
+session_start();
+
   include_once 'header.php';
   include_once 'dbh.inc.php';
   include_once 'functions.inc.php';
@@ -17,18 +20,9 @@
       <h3>Select Two Teams</h3>
   </div>
     <div>
-      <form action="includes/makepics.inc.php" method="post">
-      <?php
-      $choices = array()
-      $query = mysqli_query("SELECT field1, field2 FROM ...");
-      if (mysql_num_rows($query))
-      {
-      while ($row = mysqli_fetch_array($query))
-        {
-          $choices[$row['field1']] = $row['field2'];
-        }
-      }
-      ?>
+      <form action="includes/makedayonepics.inc.php" method="post">
+        <input type="checkbox" name="checkbox_name" value="#1 Baylor">
+      </form>
   </div>
   </div>
 </section>

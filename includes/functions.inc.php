@@ -96,7 +96,7 @@ function getUserPicks ($id)
 // Insert picks into database --STILL FIXING 
 function makePicks($pick1, $pick2) {
 	$sql = "INSERT INTO users (pickOne, pickTwo) VALUES (?, ?);";
-
+	
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql)) {
 	 	header("location: ../signup.php?error=stmtfailed");
