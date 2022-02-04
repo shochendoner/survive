@@ -19,6 +19,7 @@
     <div>
       <form action="includes/makepics.inc.php" method="post">
         <input type="checkbox" name="checkbox_name" value="#1 Baylor">
+        <button type="submit" name="submit">Submit</button>
       </form>
   </div>
   </div>
