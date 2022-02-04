@@ -22,6 +22,7 @@
         <ul>
           <li><a href="index.php">Home</a></li>
           <?php
+          session_start ()
             if (isset($_SESSION["useruid"])) {
               echo "<li><a href='profile.php'>Profile Page</a></li>";
               echo "<li><a href='logout.php'>Logout</a></li>";
