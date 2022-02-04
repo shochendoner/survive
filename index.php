@@ -17,7 +17,7 @@
       <h3>Select Two Teams</h3>
   </div>
     <div>
-      <form action="includes/makedayonepics.inc.php" method="post">
+      <form action="includes/makepics.inc.php" method="post">
         <input type="checkbox" name="checkbox_name" value="#1 Baylor">
       </form>
   </div>
