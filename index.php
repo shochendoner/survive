@@ -1,8 +1,8 @@
 <!--Splitting the header and footer into separate documents makes things easier!-->
 <?php
-  include 'header.php';
-  include 'dbh.inc.php';
-  include 'functions.inc.php';
+  include_once 'header.php';
+  include_once 'dbh.inc.php';
+  include_once 'functions.inc.php';
 ?>
 
 <section class="index-intro">
