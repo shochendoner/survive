@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #333333;
 }
 
 .wrapper {
@@ -7,8 +7,14 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto", sans-serif;
   color: #111;
   line-height: 24px;
 }
@@ -30,6 +36,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 16px;
+  color: #fff;
 }
 
 p {
@@ -48,6 +55,7 @@ nav .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #0078c2;
 }
 
 nav img {
@@ -55,7 +63,6 @@ nav img {
 }
 
 nav ul {
-
 }
 
 nav ul li {
@@ -64,7 +71,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #ffffff;
@@ -86,7 +93,7 @@ section {
 /* index */
 
 .index-intro p {
-    text-align: center;
+  text-align: center;
 }
 
 .index-categories-list {
@@ -97,8 +104,8 @@ section {
 
 .index-categories-list div {
   width: 24%;
-  height: 200px;
-  background-color: #ccc;
+  height: 100px;
+  background-color: #dd7926;
   display: flex;
   justify-content: center;
   align-items: center;

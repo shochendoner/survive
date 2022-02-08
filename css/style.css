@@ -36,6 +36,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 16px;
+  color: #fff;
 }
 
 p {
@@ -80,7 +81,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #dd7926;
+  color: #31a6ff;
 }
 
 section {
