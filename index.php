@@ -18,7 +18,6 @@
 
       <?php
 
-        session_start(); //Add this
 
         //Also you have to add your connection file before your query
         require('dbh.inc.php');
@@ -41,9 +40,7 @@
 
         // Close the database connection
         mysqli_close($conn);
-
-
-    }
+      
     ?>
 
   </div>
